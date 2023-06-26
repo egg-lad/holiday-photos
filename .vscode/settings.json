@@ -1,0 +1,21 @@
+{
+	"json.schemas": [
+		{
+			"fileMatch": ["/*/data.json"],
+			"schema": {
+				"type": "object",
+				"properties": {
+					"captions": {
+						"type": "object",
+						"additionalProperties": {
+							"type": "string"
+						}
+					}
+				},
+				"required": ["captions"],
+				"additionalProperties": false,
+				"$schema": "http://json-schema.org/draft-07/schema#"
+			}
+		}
+	]
+}
