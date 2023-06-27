@@ -1,0 +1,12 @@
+name: Trigger Rebuild of Site
+on:
+  push:
+    branches:
+      - main
+jobs:
+  request:
+    name: Trigger Rebuild of Site
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send request to trigger rebuild
+        run: curl -X GET ${{ secrets.SITE_REBUILD_URL }}
