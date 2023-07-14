@@ -1,0 +1,1 @@
+A museum dedicated to "Vasa", the best preserved 17th century ship in the world
